@@ -1,0 +1,30 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+.navbar {
+  background-color: black;
+  height: 100px;
+  width: 1536px;
+  position: relative;
+  top: -18px;
+  left: -8px;
+}
+.navbar ul {
+  display: inline-block;
+  position: relative;
+  left: 185px;
+}
+.navbar ul li {
+  display: inline-block;
+  padding-right: 28px;
+  text-decoration: none;
+  padding-top: 30px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar ul li a:hover {
+  text-decoration: underline;
+  transition: 5se;
+}
